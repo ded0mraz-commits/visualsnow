@@ -16,7 +16,7 @@ import wx.media
 from win32api import GetSystemMetrics
 
 width = GetSystemMetrics(0)
-#NOTE: A LOT OF THIS CODE IS ME JUST COPYING SOME STUFF OFF OF STACK OVERFLOW AND TRYING TO WORK WITH IT IM NOT SURE EXACTLY WHAT EVERYTHING DOES
+
 class TestPanel(wx.Frame):
     def __init__(self):
         wx.Frame.__init__(self, None,style= wx.CAPTION | wx.STAY_ON_TOP | wx.CLIP_CHILDREN)#,style=wx.CLIP_CHILDREN | wx.STAY_ON_TOP)
